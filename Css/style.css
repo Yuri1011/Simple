@@ -302,13 +302,13 @@ h1 > span {
   align-items: center;
 }
 .trend {
-  background: url("/assets/img/trend.png");
+  background: url("../assets/img/trend.png");
 }
 .limited {
-  background: url("/assets/img/limited.png");
+  background: url("../assets/img/limited.png");
 }
 .sign {
-  background: url("/assets/img/sign.png");
+  background: url("../assets/img/sign.png");
 }
 .trend,
 .limited,
