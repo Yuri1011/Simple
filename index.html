@@ -12,28 +12,30 @@
   <div class="container">
     <div class="mycompany">
       <div class="menu">
-        <h2>MYCOMPANY</h2>
+        
         <div class="link_menu">
-          <a class="home" href="#">NOME </a>
+          <h2>MYCOMPANY</h2>
+          <div class="menu_a">
+          <a class="active" href="#">HOME </a>
           <a href="#about">ABOUT</a>
           <a href="#services">SERVICES</a>
           <a href="#portfolio">PORTFOLIO</a>
           <a href="#testimonialis">TESTIMONIALS</a>
           <a href="#contact">CONTACT</a>
+          </div>
         </div>
       </div>
       <div class="title_mycompany">
         <h1>WELCOME ON <span>MYCOMPANY</span></h1>
         <p>
           We are a digital agency with <span>years of experience</span> and
-          with <span>extraordinary people</span>
+          with <span>extraordinary people .</span>
         </p>
       </div>
     </div>
-    <a name='about' href="#"></a>
-    <div class="about">
-      <div>
-        <img src="assets/img/monitor.png" alt="" />
+    <div class="about" id="about">
+      <div class="monik">
+        <img class="monitor" src="assets/img/monitor.png" alt="" />
       </div>
       <div class="about_text">
         <h2>SOME WORDS<span> ABOUT US</spa>
@@ -67,10 +69,10 @@
       <div class="pipl">
         <div>
           <img src="assets/img/mario.png" alt="mario" />
-          <p>
-            Vlad Ivanov <br />
-            <span>Designer</span>
-          </p>
+          <label>
+            Vlad Ivanov
+          </label>
+          <span>Designer</span>
           <p>
             Do not seek to change what has come before. Seek to create that
             which has not.
@@ -78,7 +80,8 @@
         </div>
         <div>
           <img src="assets/img/ironmen.png" alt="ironmen" />
-          <p>Bogdan Makarov <br /><span>Manager</span></p>
+          <label>Bogdan Makarov</label>
+          <span>Manager</span>
           <p>
             Do not seek to change what has come before. Seek to create that
             which has not.
@@ -86,15 +89,17 @@
         </div>
         <div>
           <img src="assets/img/anonim.png" alt="anonim" />
-          <p>Pavel Konov <br /><span>Copywriter</span></p>
+          <label>Pavel Konov</label>
+          <span>Copywriter</span>
           <p>
             Do not seek to change what has come before. Seek to create that
-            which has not.
+            which has not. 
           </p>
         </div>
         <div>
           <img src="assets/img/krik.png" alt="krik" />
-          <p>Max Belov <br /><span>SEO</span></p>
+          <label>Max Belov</label>
+          <span>SEO</span>
           <p>
             Do not seek to change what has come before. Seek to create that
             which has not.
@@ -175,59 +180,75 @@
           sit
           amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque
           maxime
-          possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.</p>
+          possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.
+        </p>
       </div>
       <div class="image_work">
-        <div class="trend"></div>
-        <div class="limited"></div>
-        <div class="sign"></div>
-      </div>
-    </div>
-    <a name='testimonialis' href="#"></a>
-    <div class="testimonialis">
-      <h2><span>our clients’</span> testimonials</h2>
-      <span class="shape_7"></span>
-      <p>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem
-        Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-      <p>Dean Martin, <span>CEO Acme Inc.</span></p>
-    </div>
-    <a name='contact' href="#"></a>
-    <div class="contacts">
-      <div class="title_contacts">
-        <h2>contact us</h2>
-        <span class="shape_8"></span>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at
-          asperiores
-          minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor
-          sit
-          amet, consectetur adipisicing elit. </p>
-      </div>
-      <div class="input_data">
-        <div class="name">
-          <label for="">Name</label>
-          <input type="text">
+        <div class="trend"> <img src="/assets/img/trend.png" alt="">
+          <img src="/assets/img/trend.png" alt="">
+          <img src="/assets/img/trend.png" alt="">
+          <img src="/assets/img/trend.png" alt="">
         </div>
-        <div class="email">
-          <label for="">Email addres</label>
-          <input type="email">
+        <div class="limited"> <img src="/assets/img/limited.png" alt="">
+          <img src="/assets/img/limited.png" alt="">
+          <img src="/assets/img/limited.png" alt="">
+          <img src="/assets/img/limited.png" alt="">
+        </div>
+        <div class="sign"> <img src="/assets/img/sign.png" alt="">
+          <img src="/assets/img/sign.png" alt="">
+          <img src="/assets/img/sign.png" alt="">
+          <img class="img_none" src="/assets/img/sign.png" alt="">
+        </div>
         </div>
       </div>
-      <div class="message">
-        <div class="label_message"><label for="">Message</label></div>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <div class="button"><button>SEND</button></div>
+      <a name='testimonialis' href="#"></a>
+      <div class="testimonialis">
+        <h2><span>our clients’</span> testimonials</h2>
+        <span class="shape_7"></span>
+        <div class="testimonialis_label">
+          <p>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem
+            Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+          <label>Dean Martin, <span>CEO Acme Inc.</span></label>
+        </div>
+      </div>
+      <div class="contacts" id="contact">
+        <div class="title_contacts">
+          <h2>contact us</h2>
+          <span class="shape_8"></span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at
+            asperiores
+            minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor
+            sit
+            amet, consectetur adipisicing elit. </p>
+        </div>
+        <div class="input_data">
+          <div class="name">
+            <label for="">Name</label>
+            <input type="text">
+          </div>
+          <div class="email">
+            <label for="">Email addres</label>
+            <input type="email">
+          </div>
+        </div>
+        <div class="message">
+          <div class="label_message"><label for="">Message</label></div>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <div class="button"><button>SEND</button></div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="icons_footer">
+          <a href="#"><img src="assets/img/facebook.png" alt=""></a>
+          <a href="#"><img src="assets/img/twitter.png" alt=""></a>
+          <a href="#"><img src="assets/img/google.png" alt=""></a>
+          <a href="#"><img src="assets/img/insta.png" alt=""></a>
+          <a href="#"><img src="assets/img/world.png" alt=""></a>
+        </div>
       </div>
     </div>
-    <div class="footer">
-      <div class="icons_footer">
-        <a href="#"><img src="assets/img/facebook.png" alt=""></a>
-        <a href="#"><img src="assets/img/twitter.png" alt=""></a>
-        <a href="#"><img src="assets/img/google.png" alt=""></a>
-        <a href="#"><img src="assets/img/insta.png" alt=""></a>
-        <a href="#"><img src="assets/img/world.png" alt=""></a>
-      </div>
     </div>
-  </div>
+   
 </body>
 
 </html>
