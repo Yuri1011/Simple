@@ -31,10 +31,13 @@ body {
 }
 .menu h2 {
   color: white;
+  padding-bottom: 10px;
 }
 .link_menu {
+  position: fixed;
+  background-color: black;
   display: flex;
-  margin: 22px 0 0 20px;
+  padding: 22px 0 0 20px;
   width: 100%;
   align-items: center;
 }
@@ -490,6 +493,7 @@ button {
   .link_menu {
     flex-direction: column;
     margin: 0;
+    padding: 22px 0 0 0px;
   }
   .menu_a {
     margin: 0;
@@ -526,9 +530,6 @@ button {
   }
   .menu_a a {
     padding: 5px;
-  }
-  .title_mycompany {
-    margin-top: -150px;
   }
 }
 @media (max-width: 750px) {
