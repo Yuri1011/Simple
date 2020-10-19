@@ -1,5 +1,5 @@
-$('#menu_links').on('click', menu);
-$('#button_krest').on('click', buttonKrest);
+$('#menu_links').on('click touchstart', menu);
+$('#button_krest').on('click touchstart', buttonKrest);
 
 function menu() {
     $('#menu_links').css('display', 'none');
