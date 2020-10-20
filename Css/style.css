@@ -28,7 +28,6 @@ body {
 }
 .active {
   border-bottom: orange 4px solid;
-  padding-bottom: 10px;
 }
 .menu h2 {
   color: white;
