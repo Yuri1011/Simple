@@ -43,8 +43,9 @@ body {
 .button_krest {
   width: max-content;
   height: max-content;
-  background-color: black;
+  background-color: brown;
   outline: none;
+  border-color: brown;
 }
 .polos_span {
   display: none;
@@ -488,7 +489,6 @@ button {
     height: 240px;
   }
 }
-
 @media (max-width: 1050px) {
   .pipl {
     flex-direction: column;
