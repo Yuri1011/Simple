@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: space-around;
   font-family: sans-serif;
-  background-color: rgba(27, 26, 26);
+  background-color: rgb(27, 26, 26);
 }
 .menu_a {
   display: flex;
